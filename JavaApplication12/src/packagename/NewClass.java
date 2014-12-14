@@ -12,6 +12,13 @@ package packagename;
  */
 public class NewClass {
     public static void main(String[] args) {
-        System.out.println("Hello GIT");
+        
+        test();
     }
+
+    private static void test() {
+        System.out.println("this is a call of a function ");
+    }
+    
+    
 }
