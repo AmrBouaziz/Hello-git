@@ -19,6 +19,11 @@ public class NewClass {
     private static void test() {
         System.out.println("this is a call of a function ");
     }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone(); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }
